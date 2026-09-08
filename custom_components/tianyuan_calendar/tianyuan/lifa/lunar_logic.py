@@ -197,7 +197,7 @@ class 天元农历逻辑类:
                         "日": f"{农历.getDayInGanZhiExact2()}日"
                     },
                     "纳音": {"年": 农历.getYearNaYin(), "月": 农历.getMonthNaYin(), "日": 农历.getDayNaYin(), "时": 农历.getTimeNaYin()},
-                    "生肖": {"年": 农历.getYearShengXiaoExact(), "月": 农历.getMonthShengXiaoExact(), "日": 农历.getDayShengXiao(), "时": 农历.getDayShengXiao()}
+                    "生肖": {"年": 农历.getYearShengXiaoExact(), "月": 农历.getMonthShengXiaoExact(), "日": 农历.getDayShengXiao(), "时": 农历.getTimeShengXiao()}
                 }
             },
             "十二天神数据": {
